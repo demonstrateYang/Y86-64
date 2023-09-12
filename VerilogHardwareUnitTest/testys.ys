@@ -1,0 +1,4 @@
+read_verilog StructuralDescription.v
+hierarchy -check -top binaryToESeg
+
+show -notitle -stretch -format pdf -prefix StruturalSynthesis
